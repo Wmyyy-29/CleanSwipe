@@ -1,0 +1,34 @@
+name: Feature request / 功能建议
+description: Suggest an improvement to CleanSwipe.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What problem would this feature solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy and deletion impact
+      description: Could this change photo access, storage, networking, or deletion behavior?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This request does not contain personal photos or sensitive device/account information.
+          required: true
+
